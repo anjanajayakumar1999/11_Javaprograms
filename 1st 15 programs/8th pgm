@@ -1,0 +1,15 @@
+public class sumandaverage
+{
+    public static void main(String[] args)
+    {
+        int sum=0;
+        int[] nums={12,56,33,43,10};
+        for(int i: nums)
+        {
+            sum+=i;
+        }
+        System.out.println("Sum of all numbers : "+ sum);
+        System.out.println("Average of all numbers : "+ (sum/5));
+
+    }
+}
