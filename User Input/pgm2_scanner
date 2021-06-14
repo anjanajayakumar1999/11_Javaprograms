@@ -15,7 +15,7 @@ public class arrayreverse1
             array[i] = s.nextInt();
         }
         System.out.println("Reverse of an array is :");
-        for( i=n;i>0 ; i--,j++)
+        for( i=n;i>0 ; i--)
         {
             rev[j] = array[i-1];
             System.out.println(rev[j]);
