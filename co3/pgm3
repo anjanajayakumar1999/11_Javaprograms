@@ -101,3 +101,103 @@ public class MultiInheritance {
         displayDetails(t);
     }
 }
+
+Output:
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac MultiInheritance.java
+
+C:\Users\user\Desktop\javapgm>java MultiInheritance
+Enter the no of Teachers :2
+
+
+______________________________
+
+Enter the Details of Teacher 1
+______________________________
+
+Enter the Name : arya
+
+Enter the Gender : f
+
+Enter the Address : palakkad
+
+Enter the Age : 29
+
+Enter the Employee Id : 200
+
+Enter the Company Name : wipro
+
+Enter the Qualification : btech
+
+Enter the Salary : 40000
+
+Enter the Department : IT
+
+Enter the Subject taught by the teacher : IT
+
+Enter the Teacher Id : t01
+
+
+______________________________
+
+Enter the Details of Teacher 2
+______________________________
+
+Enter the Name : lincy
+
+Enter the Gender : f
+
+Enter the Address : kottayam
+
+Enter the Age : 31
+
+Enter the Employee Id : 201
+
+Enter the Company Name : tcs
+
+Enter the Qualification : mca
+
+Enter the Salary : 35000
+
+Enter the Department : MCA
+
+Enter the Subject taught by the teacher : CS
+
+Enter the Teacher Id : t02
+
+                        Details of a Teacher 1
+                ___________________________________
+
+                        Name of Employee : arya
+                        Gender : f
+                        Address : palakkad
+                        Age : 29
+                        Employee id : 200
+                        Company Name : wipro
+                        Qualification : btech
+                        Employee Salary : null
+                        Teacher Id : t01
+                        Department : IT
+                        Subject Taught : IT
+                ___________________________________
+
+
+                        Details of a Teacher 2
+                ___________________________________
+
+                        Name of Employee : lincy
+                        Gender : f
+                        Address : kottayam
+                        Age : 31
+                        Employee id : 201
+                        Company Name : tcs
+                        Qualification : mca
+                        Employee Salary : null
+                        Teacher Id : t02
+                        Department : MCA
+                        Subject Taught : CS
+                ___________________________________
