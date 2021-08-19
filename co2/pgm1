@@ -39,4 +39,16 @@ public class sortstring
     }
 }
 
+Output:
 
+C:\Users\user>cd desktop
+C:\Users\user\Desktop>cd javapgm
+C:\Users\user\Desktop\javapgm>javac sortstring.java
+C:\Users\user\Desktop\javapgm>java sortstring
+Enter number of strings you would like to enter:4
+Enter the Strings one by one:
+rose
+lotus
+hibiscus
+sunflower
+Strings in Sorted Order:hibiscus, lotus, rose, sunflower
