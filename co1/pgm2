@@ -30,7 +30,7 @@ public class MatrixAddition {
     }
 
     public static void displayMatrix(Matrix result) {
-        System.out.println("The metrix after adding given 2 matrices:");
+        System.out.println("The matrix after adding given 2 matrices:");
         for (int i = 0; i < result.row; i++) {
             for (int j = 0; j < result.col; j++) {
                 System.out.print("\t" + result.matrix[i][j]);
@@ -57,3 +57,28 @@ public class MatrixAddition {
         displayMatrix(result);
     }
 }
+
+Output:
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac MatrixAddition.java
+
+C:\Users\user\Desktop\javapgm>java MatrixAddition
+Enter Number of Rows:2
+Enter Number of columns:2
+Enter the elements of matrix1:
+3
+4
+6
+7
+Enter the elements of matrix2:
+1
+9
+5
+2
+The matrix after adding given 2 matrices:
+        4       13
+        11      9
