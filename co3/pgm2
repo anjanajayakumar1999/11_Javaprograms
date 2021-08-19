@@ -57,3 +57,57 @@ class Inheritance{
 	
 	}
 }
+
+Output:
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac Inheritance.java
+
+C:\Users\user\Desktop\javapgm>java Inheritance
+Enter no. of teachers:
+2
+Enter the empId:
+200
+Enter the name:
+sini
+Enter the salary:
+30000
+Enter the address:
+kochi
+Enter the department:
+electronics
+Enter the subject taught:
+electronics
+
+Enter the empId:
+203
+Enter the name:
+lal
+Enter the salary:
+20000
+Enter the address:
+kollam
+Enter the department:
+cs
+Enter the subject taught:
+cs
+
+Details of teachers
+
+empId:200
+name:sini
+salary:30000.0
+address:kochi
+department:electronics
+subject:electronics
+
+
+empId:203
+name:lal
+salary:20000.0
+address:kollam
+department:cs
+subject:cs
