@@ -50,3 +50,21 @@ public class StringManipulations {
         sm.StringCompare();
     }
 }
+
+Output:
+
+C:\Users\user>cd desktop
+C:\Users\user\Desktop>cd javapgm
+C:\Users\user\Desktop\javapgm>javac StringManipulations.java
+C:\Users\user\Desktop\javapgm>java StringManipulations
+Enter first string : hello
+Enter Second string : world
+After String adding hello and world is : helloworld
+Length of hello is : 5
+Length of world is : 5
+Enter the position of Character you want to access : 3
+Character at position 3 of hello is : l
+Character at position 3 of world is : r
+Uppercase of string hello is: HELLO
+Lowercase of string hello is: hello
+Two Strings are not equal!
