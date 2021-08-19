@@ -57,3 +57,30 @@ public class DisplayCpuInformation {
         r1.display();
     }
 }
+
+Ouput:
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac DisplayCpuInformation.java
+
+C:\Users\user\Desktop\javapgm>java DisplayCpuInformation
+
+Enter the price of the cpu:30000
+Enter no.of cores in processor:3
+Enter the manufacturer name:hp
+Enter the size of memory(in GB):4
+Enter the manufacturer name:hp
+Processor Details
+__________________
+
+extLineNo of Cores : 3
+Manufacturer : hp
+
+Memory Details
+__________________
+
+Memory size : 4GB
+Manufacturer : hp
