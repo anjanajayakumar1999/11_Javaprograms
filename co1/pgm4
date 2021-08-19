@@ -32,10 +32,24 @@ public class SymmetricMatrix {
     public static void main(String[] arg) {
         int order;
         Scanner read = new Scanner(System.in);
-        System.out.print("Enter the order of sqare matrix:");
+        System.out.print("Enter the order of square matrix:");
         order = read.nextInt();
         Matrix m = new Matrix(order);
         m.MatrixCreation(read);
         m.isSymmetricMatrix();
     }
 }
+
+Output:
+
+C:\Users\user>cd desktop
+C:\Users\user\Desktop>cd javapgm
+C:\Users\user\Desktop\javapgm>javac SymmetricMatrix.java
+C:\Users\user\Desktop\javapgm>java SymmetricMatrix
+Enter the order of square matrix:2
+Enter the elements in 2x2 matrix:
+5
+4
+3
+7
+Given matrix is not a symmetric matrix
