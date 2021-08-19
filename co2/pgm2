@@ -1,35 +1,53 @@
-import java.util.*;
- class searching
-{  
- public static void main(String args[])
- {
- Scanner sc = new Scanner(System.in);
- 
-     int i,n,search,flag=0;
- System.out.println("Enter the number of elements:") ;
- n = sc.nextInt();
- int[] a = new int[n];
- 
-     System.out.println("Enter the elements") ;
-     for(i=0;i<n;i++)
-     {
-         a[i] = sc.nextInt();
-     }
- 
- System.out.println("Enter the element to be seached");
- search = sc.nextInt();
-    for(i=0;i<n;i++)
-     {
-         if(a[i]==search)
-         {
-             System.out.println("Element "+search+" found at  position "+i+"");
-             flag=1;
-             break;
-         }
-     }
-     if(flag==0)
-     {
-         System.out.println("Element "+search+" not found");
-     }
- }
+import java.util.Scanner;
+class StringArray {
+    String[] str;
+
+    StringArray(String[] str) {
+        this.str = str;
+    }
+
+    void search(Scanner read) {
+        String item;
+        System.out.print("Enter the Item to be searched :");
+        item = read.nextLine();
+        for (int i = 0; i < str.length; i++) {
+            if (item.equals(str[i])) {
+                System.out.println("Item found in the array!!!");
+                return;
+            }
+        }
+        System.out.println("Item not found!!!");
+    }
 }
+
+public class SearchArrayElement {
+    public static void main(String args[]) {
+        int limit;
+        Scanner read = new Scanner(System.in);
+        System.out.print("Enter the limit:");
+        limit = read.nextInt();
+        read.nextLine();
+        String[] str = new String[limit];
+        System.out.print("Enter Array Elements:");
+        for (int i = 0; i < limit; i++) {
+            str[i] = read.nextLine();
+        }
+        StringArray s = new StringArray(str);
+        s.search(read);
+    }
+}
+
+Output:
+
+
+C:\Users\user>cd desktop
+C:\Users\user\Desktop>cd javapgm
+C:\Users\user\Desktop\javapgm>javac SearchArrayElement.java
+C:\Users\user\Desktop\javapgm>java SearchArrayElement
+Enter the limit:4
+Enter Array Elements:black
+green
+yellow
+orange
+Enter the Item to be searched :yellow
+Item found in the array!!!
