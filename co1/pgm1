@@ -39,7 +39,15 @@ class Product {
 
     }
 }
-![Capture](https://user-images.githubusercontent.com/79987578/130083892-4cc63f53-b4d9-4f52-95b6-83bcdc694cfe.JPG)
 
+Output:
 
+C:\Users\user>cd desktop
 
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac ProductMain.java
+
+C:\Users\user\Desktop\javapgm>java ProductMain
+
+Product having lowest price is : Pencil
