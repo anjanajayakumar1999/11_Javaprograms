@@ -25,3 +25,15 @@ class AddComplexNumbers {
 
     }
 }
+
+Output:
+
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac ComplexMain.java
+
+C:\Users\user\Desktop\javapgm>java ComplexMain
+Resulting Complex number : 12.0+7.0i
