@@ -54,3 +54,29 @@ public class EmployeeDetails{
         Search(emp, read);
     }
 }
+
+Output:
+
+C:\Users\user>cd desktop
+C:\Users\user\Desktop>cd javapgm
+C:\Users\user\Desktop\javapgm>javac EmployeeDetails.java
+C:\Users\user\Desktop\javapgm>java EmployeeDetails
+Enter the number of Employee : 3
+
+Enter the Employee Number : 100
+Enter the Employee Name : lincy
+Enter the Salary : 20000
+
+Enter the Employee Number : 102
+Enter the Employee Name : anu
+Enter the Salary : 40000
+
+Enter the Employee Number : 106
+Enter the Employee Name : ram
+Enter the Salary : 35000
+
+Enter the Employee Number to be Searched: 102
+        Details of given Employee:
+        ____________________________
+        Employee Name: anu
+        Employee salary: 40000.0
