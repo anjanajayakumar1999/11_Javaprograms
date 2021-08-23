@@ -13,3 +13,17 @@ public class sumandaverage
 
     }
 }
+
+
+Output:
+
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac sumandaverage.java
+
+C:\Users\user\Desktop\javapgm>java sumandaverage
+Sum of all numbers : 154
+Average of all numbers : 30
