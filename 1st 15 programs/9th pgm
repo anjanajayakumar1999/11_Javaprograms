@@ -17,3 +17,16 @@ public class switchstatement
         }
     }
 }
+
+
+Output:
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac switchstatement.java
+
+C:\Users\user\Desktop\javapgm>java switchstatement
+
+Small
