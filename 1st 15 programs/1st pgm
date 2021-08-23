@@ -4,3 +4,17 @@ class Name {
   System.out.println("Hello\n Anjana Jayakumar");
  }
 }
+
+
+Output:
+
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac Name.java
+
+C:\Users\user\Desktop\javapgm>java Name
+Hello
+ Anjana Jayakumar
