@@ -1,19 +1,22 @@
-import java.io.*;
-public class positiveornegative
-{
-    public static void main(String[] args) 
-    {
-        int number=-500;
-        if(number > 0)
-        {
-            System.out.println("The number is positive");
-        }
-        else if(number < 0)
-        {
-            System.out.println("The number is negative");
-        }
-        else
-        {
-            System.out.println("The number is zero");
-        }
+public class PositiveOrNegative {
+    public static void main(String[] args) {
+        int num =-9 ;
+        if(num > 0)
+            System.out.println("Number is positive");
+        else 
+            System.out.println("Number is Negative");
+
     }
+}
+
+Output:
+
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac PositiveOrNegative.java
+
+C:\Users\user\Desktop\javapgm>java PositiveOrNegative
+Number is Negative
