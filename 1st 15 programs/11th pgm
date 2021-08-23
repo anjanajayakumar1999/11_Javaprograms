@@ -9,3 +9,19 @@ public class arrayelements
         System.out.println("Third element : "+ arr[3]);
     }
 }
+
+
+Output:
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac arrayelements.java
+
+C:\Users\user\Desktop\javapgm>java arrayelements
+
+First element : 12
+Second element : 4
+Third element : 5
+Third element : 2
