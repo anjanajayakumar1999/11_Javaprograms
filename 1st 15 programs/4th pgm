@@ -9,3 +9,16 @@ class circle
         System.out.println("Area is = " + area);
        }
 }
+
+
+Output:
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac circle.java
+
+C:\Users\user\Desktop\javapgm>java circle
+Perimeter is = 47.12388980384689
+Area is = 176.71458676442586
