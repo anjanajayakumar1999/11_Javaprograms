@@ -12,3 +12,27 @@ public class naturalnumber {
 System.out.println ("\n");
 }
 }
+
+
+Output:
+
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac naturalnumber.java
+
+C:\Users\user\Desktop\javapgm>java naturalnumber
+The first 10 natural numbers are:
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
