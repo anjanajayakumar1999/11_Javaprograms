@@ -15,3 +15,15 @@ public class greatestnumber{
           System.out.println(num3+" is the largest Number");
   }
 }
+
+Output:
+
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac greatestnumber.java
+
+C:\Users\user\Desktop\javapgm>java greatestnumber
+90 is the largest Number
