@@ -9,3 +9,18 @@ class operation {
 
       }
 }
+
+
+Output:
+
+C:\Users\user>cd desktop
+
+C:\Users\user\Desktop>cd javapgm
+
+C:\Users\user\Desktop\javapgm>javac operation.java
+
+C:\Users\user\Desktop\javapgm>java operation
+43
+1
+19
+13
