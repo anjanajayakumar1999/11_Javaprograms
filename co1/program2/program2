@@ -30,7 +30,7 @@ public class MatrixAddition {
     }
 
     public static void displayMatrix(Matrix result) {
-        System.out.println("The matrix after adding given 2 matrices:");
+        System.out.println("The metrix after adding given 2 matrices:");
         for (int i = 0; i < result.row; i++) {
             for (int j = 0; j < result.col; j++) {
                 System.out.print("\t" + result.matrix[i][j]);
